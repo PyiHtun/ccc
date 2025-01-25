@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ccc/static/css/main.f855e6bc.css",
+    "main.js": "/ccc/static/js/main.69a105b5.js",
+    "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
+    "static/media/ccc_favicon.png": "/ccc/static/media/ccc_favicon.49d731d55ddee910a6a6.png",
+    "index.html": "/ccc/index.html",
+    "main.f855e6bc.css.map": "/ccc/static/css/main.f855e6bc.css.map",
+    "main.69a105b5.js.map": "/ccc/static/js/main.69a105b5.js.map",
+    "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.69a105b5.js"
+  ]
+}
