@@ -3,4 +3,58 @@
   .contact-info {
     display: none;
   }
+
+  /* Remove horizontal scroll on mobile */
+  .card-container {
+    overflow-x: visible;
+  }
+  
+  /* Allow the row to wrap (vertical stacking) */
+  .card-row {
+    flex-wrap: wrap;
+  }
+  
+  /* Make each column take full width and center its content */
+  .card-row > .ant-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Optional: adds spacing between cards */
+  }
+}
+
+/* Center the content on larger screens */
+.content-wrapper {
+  padding: 20px 1px 0;  /* Top, right/left, and bottom padding */
+  max-width: 1200px;     /* Set a maximum width (adjust as needed) */
+  margin: 0 auto;        /* Centers the wrapper in the viewport */
+}
+
+/* Increase the size of the collapsed menu icon */
+.ant-menu-overflow-item-rest .anticon {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Ensure the dropdown menu is properly styled */
+.ant-menu-overflow-item-rest .ant-dropdown-trigger {
+  padding: 0 16px; /* Add padding for better touch targets */
+}
+
+/* Adjust the input element */
+.custom-search .ant-input {
+  height: 30px !important;
+  font-size: 20px !important;
+  line-height: 50px !important;
+}
+
+/* Adjust the wrapper that holds the input and addon (if any) */
+.custom-search .ant-input-affix-wrapper {
+  height: 50px !important;
+}
+
+/* Adjust the search button */
+.custom-search .ant-input-search-button {
+  height: 50px !important;
+  line-height: 50px !important;
 }
