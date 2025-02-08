@@ -4,14 +4,15 @@ import card2 from '././img/card-consultation.webp';
 import card3 from '././img/card-careplan.webp';
 import card4 from '././img/card-inGoodHand.webp';
 import StepCard from '././component/StepCard'; // Adjust the import path as needed
-
+import opening from '././img/opening2.webp'
 import './App.css';
 import React from 'react';
-import { Layout, Menu, Space, Col, Row, Input, Divider } from 'antd';
+import { Layout, Menu, Space, Col, Row, Input, Divider, Typography,  Avatar, List, Steps } from 'antd';
 import { MailTwoTone, PhoneTwoTone } from '@ant-design/icons';
 
 const { Header, Content, Footer } = Layout;
 const { Search } = Input;
+const { Title, Paragraph, Text, Link } = Typography;
 
 const MENU_LABELS = {
   HOME: "Home",
@@ -26,6 +27,15 @@ const menuItems = Object.values(MENU_LABELS).map((label, index) => ({
   label,
 }));
 const onSearch = (value, _e, info) => console.log(info?.source, value);
+
+  const data = [
+    {
+      title: 'Compassionate Care Led by Experienced NHS Nurses',
+      current: 0,
+      description: 'At the heart of our care agency is a team led by highly skilled and dedicated NHS nurses with extensive clinical and educational expertise. Our leadership includes Qualified Nurses, Practice Educators, Professional Nurse Advocates, NMC Board Memeber and OSCE Trainers, ensuring that every aspect of care we provide meets the highest professional standards.',
+    },
+
+  ];
 
 function App() {
   return (
@@ -70,28 +80,70 @@ function App() {
           <span>info@cozycornercare.com</span>
         </Space>
       </Header>
-      <Content style={{ background: "#ffffff", marginTop: '20px' }}>
+      <Content style={{ background: "#ffffff", marginTop: '10px', borderTop: '1px solid #1BA1E2' }}>
         <div className="content-wrapper">
-          <div className="card-container">
-          <Row justify="center" style={{ marginTop: '20px' }}>
-              <Col xs={24} sm={16} md={12} lg={8}>
-                <Search
-                  className="custom-search"
-                  placeholder="Email or Contact Number"
-                  allowClear
-                  enterButton="Submit"
-                  size="large"
-                  onSearch={onSearch}
+          <div>
+            {/* <List 
+              itemLayout="horizontal"
+              dataSource={data}
+              renderItem={(item, index) => (
+                <List.Item>
+                  <List.Item.Meta
+                    avatar={<Avatar src={`https://api.dicebear.com/7.x/miniavs/svg?seed=${index}`} />}
+                    title={<a href="https://ant.design">{item.title}</a>}
+                    description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+                  />
+                </List.Item>
+              )}
+            /> */}
+                  <List
+        itemLayout="horizontal"
+        dataSource={data}
+        renderItem={(item, index) => {
+          const isRightAligned = index % 2 !== 0; // Every other item is right-aligned
+
+          return (
+            <List.Item>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: isRightAligned ? "row-reverse" : "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  width: "100%",
+                  textAlign: isRightAligned ? "right" : "left",
+                }}
+              >
+                <Avatar
+                  src={`https://api.dicebear.com/7.x/miniavs/svg?seed=${index}`}
+                  style={{
+                    marginLeft: isRightAligned ? "10px" : "0",
+                    marginRight: isRightAligned ? "0" : "10px",
+                  }}
                 />
-              </Col>
-          </Row> 
-            <Divider/>
+                <div style={{ flex: 1 }}>
+                  <List.Item.Meta
+                    title={
+                      <a href="https://ant.design" style={{ color: "#1677ff" }}>
+                        {item.title}
+                      </a>
+                    }
+                    description={item.description}
+                  />
+                </div>
+              </div>
+            </List.Item>
+          );
+        }}
+      />
+          </div>
+          <div className="card-container" >
             <Row gutter={16} className="card-row">
               <Col span={6}>
                 <StepCard 
                   step={1} 
                   title="Let's Connect" 
-                  description="Leave your contact and we will takecare of the rest" 
+                  description="Leave your contact and we will reach out" 
                   imageSrc={card1}
                 />
               </Col>
@@ -120,6 +172,33 @@ function App() {
                 />
               </Col>
             </Row>
+            {/* <Row 
+              style={{
+                height: 200,
+                boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+                position: 'relative', 
+                overflow: 'hidden', // Prevents content from overflowing
+                // backgroundSize: 'cover',
+                // backgroundRepeat: 'no-repeat',  
+                // backgroundPosition: 'center',
+                // backgroundImage: `url(${opening})`,
+                backgroundColor: '#FDFDEC'
+              }}
+            >
+          
+            </Row> */}
+            <Row justify="center" style={{ marginTop: '20px' }}>
+              <Col xs={24} sm={16} md={12} lg={8}>
+                <Search
+                  className="custom-search"
+                  placeholder="Email or Contact Number"
+                  allowClear
+                  enterButton="Submit"
+                  size="large"
+                  onSearch={onSearch}
+                />
+              </Col>
+            </Row>  
           </div>
         </div>
       </Content>

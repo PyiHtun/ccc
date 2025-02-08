@@ -7,6 +7,7 @@
   /* Remove horizontal scroll on mobile */
   .card-container {
     overflow-x: visible;
+    margin-top: 30px; /* Optional: adds spacing between cards */
   }
   
   /* Allow the row to wrap (vertical stacking) */
