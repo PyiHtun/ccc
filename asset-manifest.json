@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/ccc/static/css/main.251ffed4.css",
-    "main.js": "/ccc/static/js/main.dc8ce6b0.js",
+    "main.css": "/ccc/static/css/main.f855e6bc.css",
+    "main.js": "/ccc/static/js/main.69a105b5.js",
     "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
-    "static/media/opening2.webp": "/ccc/static/media/opening2.2e1d84c847d206e5f20b.webp",
-    "static/media/card-letUsHelp.webp": "/ccc/static/media/card-letUsHelp.4228e5cffcd4bb7ace9e.webp",
-    "static/media/card-consultation.webp": "/ccc/static/media/card-consultation.737a54f7c3e27616fb57.webp",
-    "static/media/card-inGoodHand.webp": "/ccc/static/media/card-inGoodHand.b179fbd5be33a7a06830.webp",
-    "static/media/card-careplan.webp": "/ccc/static/media/card-careplan.8cef20d3dbf0eb9d4966.webp",
-    "static/media/ccc_main.png": "/ccc/static/media/ccc_main.e5b34c70fcb0cfc15a06.png",
+    "static/media/ccc_favicon.png": "/ccc/static/media/ccc_favicon.49d731d55ddee910a6a6.png",
     "index.html": "/ccc/index.html",
-    "main.251ffed4.css.map": "/ccc/static/css/main.251ffed4.css.map",
-    "main.dc8ce6b0.js.map": "/ccc/static/js/main.dc8ce6b0.js.map",
+    "main.f855e6bc.css.map": "/ccc/static/css/main.f855e6bc.css.map",
+    "main.69a105b5.js.map": "/ccc/static/js/main.69a105b5.js.map",
     "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.251ffed4.css",
-    "static/js/main.dc8ce6b0.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.69a105b5.js"
   ]
 }
