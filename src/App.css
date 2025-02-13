@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
+/* Hide the contact info on mobile screens */
+@media (max-width: 768px) {
+  .contact-info {
+    display: none;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* Remove horizontal scroll on mobile */
+  .card-container {
+    overflow-x: visible;
+    margin-top: 30px; /* Optional: adds spacing between cards */
+  }
+  
+  /* Allow the row to wrap (vertical stacking) */
+  .card-row {
+    flex-wrap: wrap;
+  }
+  
+  /* Make each column take full width and center its content */
+  .card-row > .ant-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Optional: adds spacing between cards */
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .custom-search {
+    width: 100%; /* Take full width on small screens */
+    box-shadow: 0 0 15px rgba(30, 144, 255, 0.7);
+    transform: none; /* Prevent scaling on small screens */
+  }
+
+  .custom-search-container {
+    padding: 5px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Center the content on larger screens */
+.content-wrapper {
+  padding: 20px 1px 0;  /* Top, right/left, and bottom padding */
+  max-width: 1200px;     /* Set a maximum width (adjust as needed) */
+  margin: 0 auto;        /* Centers the wrapper in the viewport */
+}
+
+/* Increase the size of the collapsed menu icon */
+.ant-menu-overflow-item-rest .anticon {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Ensure the dropdown menu is properly styled */
+.ant-menu-overflow-item-rest .ant-dropdown-trigger {
+  padding: 0 16px; /* Add padding for better touch targets */
+}
+
+/* Adjust the input element */
+.custom-search .ant-input {
+  height: 30px !important;
+  font-size: 20px !important;
+  line-height: 50px !important;
+}
+
+/* Adjust the wrapper that holds the input and addon (if any) */
+.custom-search .ant-input-affix-wrapper {
+  height: 50px !important;
+}
+
+/* Adjust the search button */
+.custom-search .ant-input-search-button {
+  height: 50px !important;
+  line-height: 50px !important;
+}
+
+
+.custom-search-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-search {
+  width: 90%; /* Adjust width for mobile */
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.8), 
+              0 0 40px rgba(30, 144, 255, 0.5);
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-search:hover {
+  box-shadow: 0 0 25px rgba(30, 144, 255, 1), 
+              0 0 50px rgba(30, 144, 255, 0.7);
+  transform: scale(1.05);
 }
+
+.custom-search:focus-within {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.9), 
+              0 0 60px rgba(255, 215, 0, 0.7);
+}
+
