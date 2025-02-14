@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ccc/static/css/main.c1ea283f.css",
-    "main.js": "/ccc/static/js/main.c0d0c863.js",
+    "main.js": "/ccc/static/js/main.2ec3efc6.js",
     "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
     "static/media/card-letUsHelp.webp": "/ccc/static/media/card-letUsHelp.4228e5cffcd4bb7ace9e.webp",
     "static/media/carousel-2.webp": "/ccc/static/media/carousel-2.8435a19d748cba753e51.webp",
@@ -12,11 +12,11 @@
     "static/media/ccc_main.png": "/ccc/static/media/ccc_main.e5b34c70fcb0cfc15a06.png",
     "index.html": "/ccc/index.html",
     "main.c1ea283f.css.map": "/ccc/static/css/main.c1ea283f.css.map",
-    "main.c0d0c863.js.map": "/ccc/static/js/main.c0d0c863.js.map",
+    "main.2ec3efc6.js.map": "/ccc/static/js/main.2ec3efc6.js.map",
     "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ea283f.css",
-    "static/js/main.c0d0c863.js"
+    "static/js/main.2ec3efc6.js"
   ]
 }
