@@ -1,7 +1,17 @@
 /* Hide the contact info on mobile screens */
 @media (max-width: 768px) {
-  .contact-info {
+  .contact-info{
     display: none;
+  }
+  .contact-info-mobile {
+    display: flex !important;  /* Force display for debugging */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2px; 
+    background: #ffffff;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
   }
 
   /* Remove horizontal scroll on mobile */
@@ -20,9 +30,14 @@
     flex: 0 0 100%;
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     margin-bottom: 20px; /* Optional: adds spacing between cards */
   }
+
+  .carousel-content {
+    height: 250px !important;
+  }
+    
 
   .custom-search {
     width: 100%; /* Take full width on small screens */
@@ -52,6 +67,19 @@
   padding: 0 16px; /* Add padding for better touch targets */
 }
 
+.carousel-content {
+  margin: 0;
+  height: 400px;
+  color: #fff;
+  line-height: 22px;
+  text-align: left; /* using left instead of 'top' as textAlign */
+  background: #364d79;
+  background-size: cover;
+  background-position: 50% 30%;
+  opacity: 0.9;
+  position: relative;
+}
+
 /* Adjust the input element */
 .custom-search .ant-input {
   height: 30px !important;
@@ -75,8 +103,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
+}
+
+.custom-search-container .ant-input,
+.custom-search-container .ant-input-affix-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .custom-search {
@@ -96,6 +130,14 @@
 
 .custom-search:focus-within {
   box-shadow: 0 0 30px rgba(255, 215, 0, 0.9), 
-              0 0 60px rgba(255, 215, 0, 0.7);
+              0 0 60px hsla(51, 100%, 50%, 0.7);
 }
 
+
+.contact-info {
+  margin-left: 20px; 
+}
+
+.contact-info-mobile {
+  display: none;
+}
