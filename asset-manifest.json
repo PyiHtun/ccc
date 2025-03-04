@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccc/static/css/main.f30b560d.css",
-    "main.js": "/ccc/static/js/main.21dcf92c.js",
+    "main.css": "/ccc/static/css/main.7c165f67.css",
+    "main.js": "/ccc/static/js/main.fce81497.js",
     "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
     "static/media/carousel-5.webp": "/ccc/static/media/carousel-5.08953fd10a93237c3bab.webp",
     "static/media/carousel-3.webp": "/ccc/static/media/carousel-3.f98506e8d9b33be68341.webp",
@@ -13,13 +13,14 @@
     "static/media/carousel-1.webp": "/ccc/static/media/carousel-1.ffdaf4fc9ecae4c415e7.webp",
     "static/media/services.webp": "/ccc/static/media/services.5c13c80a65ddaa3846c4.webp",
     "static/media/ccc_main_2.png": "/ccc/static/media/ccc_main_2.e2273c92fd035ac72f54.png",
+    "static/media/ccc_favicon.png": "/ccc/static/media/ccc_favicon.49d731d55ddee910a6a6.png",
     "index.html": "/ccc/index.html",
-    "main.f30b560d.css.map": "/ccc/static/css/main.f30b560d.css.map",
-    "main.21dcf92c.js.map": "/ccc/static/js/main.21dcf92c.js.map",
+    "main.7c165f67.css.map": "/ccc/static/css/main.7c165f67.css.map",
+    "main.fce81497.js.map": "/ccc/static/js/main.fce81497.js.map",
     "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30b560d.css",
-    "static/js/main.21dcf92c.js"
+    "static/css/main.7c165f67.css",
+    "static/js/main.fce81497.js"
   ]
 }
