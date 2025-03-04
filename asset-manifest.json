@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccc/static/css/main.7c165f67.css",
-    "main.js": "/ccc/static/js/main.da51e0c8.js",
+    "main.css": "/ccc/static/css/main.7bc88c7c.css",
+    "main.js": "/ccc/static/js/main.9c27f0b6.js",
     "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
     "static/media/carousel-5.webp": "/ccc/static/media/carousel-5.08953fd10a93237c3bab.webp",
     "static/media/carousel-3.webp": "/ccc/static/media/carousel-3.f98506e8d9b33be68341.webp",
@@ -15,12 +15,12 @@
     "static/media/ccc_main_2.png": "/ccc/static/media/ccc_main_2.e2273c92fd035ac72f54.png",
     "static/media/ccc_favicon.png": "/ccc/static/media/ccc_favicon.49d731d55ddee910a6a6.png",
     "index.html": "/ccc/index.html",
-    "main.7c165f67.css.map": "/ccc/static/css/main.7c165f67.css.map",
-    "main.da51e0c8.js.map": "/ccc/static/js/main.da51e0c8.js.map",
+    "main.7bc88c7c.css.map": "/ccc/static/css/main.7bc88c7c.css.map",
+    "main.9c27f0b6.js.map": "/ccc/static/js/main.9c27f0b6.js.map",
     "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c165f67.css",
-    "static/js/main.da51e0c8.js"
+    "static/css/main.7bc88c7c.css",
+    "static/js/main.9c27f0b6.js"
   ]
 }
