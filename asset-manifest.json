@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/ccc/static/css/main.fd72c562.css",
-    "main.js": "/ccc/static/js/main.417ed42b.js",
+    "main.css": "/ccc/static/css/main.3d5eca50.css",
+    "main.js": "/ccc/static/js/main.2e0d4252.js",
     "static/js/453.e0f7175b.chunk.js": "/ccc/static/js/453.e0f7175b.chunk.js",
-    "static/media/carousel-5.webp": "/ccc/static/media/carousel-5.08953fd10a93237c3bab.webp",
-    "static/media/carousel-3.webp": "/ccc/static/media/carousel-3.f98506e8d9b33be68341.webp",
+    "static/media/bp.jpg": "/ccc/static/media/bp.5b73da77469ec6070b57.jpg",
+    "static/media/phone.jpg": "/ccc/static/media/phone.0e60a02444c7e4fb3f0e.jpg",
+    "static/media/nathan-anderson.jpg": "/ccc/static/media/nathan-anderson.4bd58ab6bb21f25e273d.jpg",
     "static/media/card-letUsHelp.webp": "/ccc/static/media/card-letUsHelp.4228e5cffcd4bb7ace9e.webp",
-    "static/media/carousel-2.webp": "/ccc/static/media/carousel-2.8435a19d748cba753e51.webp",
     "static/media/card-consultation.webp": "/ccc/static/media/card-consultation.737a54f7c3e27616fb57.webp",
     "static/media/card-inGoodHand.webp": "/ccc/static/media/card-inGoodHand.b179fbd5be33a7a06830.webp",
     "static/media/card-careplan.webp": "/ccc/static/media/card-careplan.8cef20d3dbf0eb9d4966.webp",
-    "static/media/carousel-1.webp": "/ccc/static/media/carousel-1.ffdaf4fc9ecae4c415e7.webp",
-    "static/media/services.webp": "/ccc/static/media/services.5c13c80a65ddaa3846c4.webp",
+    "static/media/istockphoto-1.jpg": "/ccc/static/media/istockphoto-1.1e41a324559a0eb5a247.jpg",
     "static/media/ccc_main_2.png": "/ccc/static/media/ccc_main_2.e2273c92fd035ac72f54.png",
-    "static/media/ccc_favicon.png": "/ccc/static/media/ccc_favicon.49d731d55ddee910a6a6.png",
+    "static/media/istockphoto-2.jpg": "/ccc/static/media/istockphoto-2.da584b1ea8eb0c4bc944.jpg",
     "index.html": "/ccc/index.html",
-    "main.fd72c562.css.map": "/ccc/static/css/main.fd72c562.css.map",
-    "main.417ed42b.js.map": "/ccc/static/js/main.417ed42b.js.map",
+    "main.3d5eca50.css.map": "/ccc/static/css/main.3d5eca50.css.map",
+    "main.2e0d4252.js.map": "/ccc/static/js/main.2e0d4252.js.map",
     "453.e0f7175b.chunk.js.map": "/ccc/static/js/453.e0f7175b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd72c562.css",
-    "static/js/main.417ed42b.js"
+    "static/css/main.3d5eca50.css",
+    "static/js/main.2e0d4252.js"
   ]
 }
